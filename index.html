@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MERN Stack Deployment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>MERN Stack Deployment</h1>
+    <p>Deploy MongoDB, Express, React & Node.js Application</p>
+  </header>
+
+  <section class="container">
+
+    <div class="card">
+      <h2>Frontend (React)</h2>
+
+      <p>
+        React frontend can be deployed on:
+      </p>
+
+      <ul>
+        <li>Netlify</li>
+        <li>Vercel</li>
+        <li>AWS S3</li>
+      </ul>
+
+      <button onclick="showMessage('React Frontend Deployment Successful')">
+        Deploy Frontend
+      </button>
+    </div>
+
+
+    <div class="card">
+      <h2>Backend (Node.js + Express)</h2>
+
+      <p>
+        Backend server can be deployed on:
+      </p>
+
+      <ul>
+        <li>Heroku</li>
+        <li>AWS EC2</li>
+        <li>Render</li>
+      </ul>
+
+      <button onclick="showMessage('Backend Deployment Successful')">
+        Deploy Backend
+      </button>
+    </div>
+
+
+    <div class="card">
+      <h2>Database (MongoDB)</h2>
+
+      <p>
+        MongoDB database can be hosted using MongoDB Atlas Cloud.
+      </p>
+
+      <button onclick="showMessage('MongoDB Atlas Connected Successfully')">
+        Connect Database
+      </button>
+    </div>
+
+  </section>
+
+  <script>
+
+    function showMessage(message) {
+      alert(message);
+    }
+
+  </script>
+
+</body>
+</html>
